@@ -32,6 +32,11 @@
     powerOnBoot = true;
   };
 
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+
   ### NETWORKING
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;

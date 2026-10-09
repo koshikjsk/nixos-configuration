@@ -6,6 +6,7 @@ exec --no-startup-id xrandr --rate 100
 exec --no-startup-id feh --bg-fill /home/koshik/Pictures/clearing.png
 exec --no-startup-id dunst
 exec --no-startup-id blueman-applet
+exec --no-startup-id AmneziaVPN
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id wpctl set-volume @DEFAULT_SINK@ 5%+ && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id wpctl set-volume @DEFAULT_SINK@ 5%- && $refresh_i3status

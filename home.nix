@@ -25,7 +25,8 @@
     };
     shellAliases = {
       rs = "sudo nixos-rebuild switch";
-      cg = "nix-collect-garbage -d";
+      gc = "nix-collect-garbage -d";
+      pf = "pfetch";
       vc = "nvim ~/nixos/configuration.nix";
       vh = "nvim ~/nixos/home.nix";
     };
@@ -37,6 +38,7 @@
     ./modules/i3blocks.nix
     ./modules/alacritty.nix
     ./modules/rofi.nix
+    ./modules/dunst.nix
   ];
   ### XDG CONFIGS
   xdg.configFile."nvim" = {
