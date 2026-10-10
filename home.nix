@@ -81,6 +81,7 @@
   ### PACKAGES
   home.packages = with pkgs; [
     alacritty
+    tmux
     i3blocks
     xclip
     maim
